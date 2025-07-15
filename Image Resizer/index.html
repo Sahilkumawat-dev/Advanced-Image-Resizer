@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Resizer|NotesSociety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ad-space">
+            <img src="https://stryderbikes.com/cdn/shop/files/Voltic_go_Mobile_banner.png?v=1724561939" alt="Ad Image">
+            <p>How it works: The ads.txt file is located at the root of the domain, for example, on example.com/ads.txt. It helps buyers identify counterfeit inventory and can help publishers receive more advertiser spend.</p>
+        </div>
+        <div class="container">
+            <h3><a href="https://notessociety.netlify.app/" style="text-decoration: black; color: black;background-color: transparent;">NotesSociety</a></h3>
+            <h1>Advanced Image Resizer</h1>
+            <input type="file" id="fileInput" accept="image/*">
+            <input type="number" id="targetSize" placeholder="Enter target size in KB">
+            <select id="quality">
+                <option value="0.1">Low Quality</option>
+                <option value="0.5">Medium Quality</option>
+                <option value="0.8" selected>High Quality</option>
+                <option value="1.0">Original Quality</option>
+            </select>
+            <button onclick="resizeAndCompressImage()">Resize & Compress Image</button>
+            <canvas id="canvas" style="display: none;"></canvas>
+            <img id="outputImage" src="" alt="Resized Image">
+            <a id="downloadLink" href="#" download="resized-image.jpg" style="display: none;">Download Resized Image</a>
+            <p class="note">* Select an image, choose quality, and enter a target size to resize and compress.</p>
+        </div>
+        <div class="ad-space">
+            <img src="https://i.pinimg.com/originals/45/89/07/4589072fb13a52339a270da83a3a7381.jpg" alt="Ad Image">
+            <p>Creating an ads.txt file is not mandatory, but it's highly recommended. To verify an ads.txt file, the publisher ID must be included and formatted correctly.</p>
+        </div>
+    </div>
+    <a href="https://chat.whatsapp.com/IbFLOvxqw5I9opfiS0PCg4
+    " target="_blank" class="whatsapp-button">
+        <img src="wp.png" alt="WhatsApp" />
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

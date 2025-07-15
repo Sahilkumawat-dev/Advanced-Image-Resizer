@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+.ad-space {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    flex-direction: column;
+}
+.ad-space img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container {
+    flex: 2;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+input, button, select {
+    width: calc(100% - 20px);
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+img {
+    max-width: 100%;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+.note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+a:hover {
+    background-color: #218838;
+}
+@media (max-width: 768px) {
+    .ad-space {
+        display: none;
+    }
+}
+.whatsapp-button {
+position: fixed;
+bottom: 20px; 
+right: 20px;
+z-index: 1000; 
+background-color: #25D366; 
+border-radius: 50%;
+padding: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button img {
+width: 50px; 
+height: 50px;
+}
